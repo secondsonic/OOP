@@ -7,7 +7,7 @@ y = 'String'
 print(type(x))
 print(type(y))
 
-print(y.replace('s'.upper(),''))
+print(y.replace('s'.upper(),''))    #Using methods
 
 """
 creating a new instance of turtle object,
