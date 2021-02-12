@@ -1,7 +1,7 @@
 #Creating Classes
 #Methods look just like funcs, but you have to call them using an object. 
 class Dog(object):
-    def __init__(self,name,age): #Constructor Method, self is attribute.
+    def __init__(self,name,age): #Constructor or initialization Method, self is an attribute.
         self.name = name    #self represnts the instance
         self.age = age
         self.fav_numbers = [1,3,5]
