@@ -17,17 +17,15 @@ class Dog():
         #barks n times
         for _ in range(n):
             print('Bark!')
-    def __str__(self):
-        return str(self.dogs)
 
     
 
 leo = Dog("Leo")
 rex = Dog('Rex')
 
-print(Dog.num_dogs())
-print(leo.num_dogs())
-print(rex.num_dogs())
+print(Dog.num_dogs())   #1
+print(leo.num_dogs())   #2
+print(rex.num_dogs())   #3 All 1-3 are the same thing
 leo.bark(2)
 rex.bark(3)
 print(Dog.dogs)
